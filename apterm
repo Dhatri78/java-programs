@@ -1,0 +1,12 @@
+import java.util.*;
+public class apterm {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int a = scn.nextInt();
+        int d = scn.nextInt();
+        int n = scn.nextInt();
+        // Compute and Print
+        int f = a + (n-1)*d;
+        System.out.println(f);
+    }
+}
